@@ -2,66 +2,50 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## OpneWeathermap API Implementation
+1. Go to https://openweathermap.org/api
+2. Click on the API on navbar go to https://openweathermap.org/api
+3. Select the Current Weather Data API
+4. Go to the Navbar and click on the account Name and you will get the dropdown of My services, My API keys, My payments, My profile, and Logout.
+5. Now click on My API keys and Generate the key and use this key in your API call.
+   
+## How to Setup the App
+1. Clone the repository.
+2. Replace the API key with your key, inside the src.Constants.constant.js
+3. Now install the dependency using npm install.
 
-In the project directory, you can run:
+## How to run the App
+ Using npm start run your app and check http://localhost:3000/, You will able see the website.
 
-### `npm start`
+## How I build the App
+Using npm run build 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How I deployed the App on netlify.com
+ 1. Using npm run buld you will get the build folder inside you app.
+ 2. In netlify select deploy menually and drag and drop your build folder after deployed you can check the live demo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Known Issue
+1. Sometimes we are getting this issue, When you open your localhost instead of website you will get a text data is not available with button Retry.
+2. Now click on Retry button you are able to see the website.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 1. When you run the APP for perticular city
 
-### `npm run build`
+1. When you will open the App website will show the data for London, London is the inital value which I put.
+2. You have input field for city to fetch the data for perticular city.
+3. Write the city name in input field and hit enter or click on the search button you will able to see the data for perticular city.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2. How to get the Data for Multiple cities
+1. In last, I am showing a Text "Click below button to see weather Report for Multiple Locations" and button "Show Multiple Locations".
+2. When ypu click on this button you are able to see the data for New york, London, Tokyo, and Paris Intially.
+3. You will get the text field where you can enter the multiple names of the cities and when you clcik on the button "Show Results", You will get the data for locations.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
